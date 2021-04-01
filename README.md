@@ -25,3 +25,16 @@ In this course, the **concepts covered** are:
 - Generate types with TypeScript based on Schema GraphQL with GraphQL Code Generator
 - Production build and deploy
 - All concepts following the adequate business rules
+
+## How to run the project?
+First of all, it's needed to have [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/en/download/) installed on your system. After that, clone the repository on your machine, enter the desired project folder and run these commands on your terminal:
+
+```
+npm install -g @ionic/cli cordova-res
+
+npm install
+
+ionic serve
+```
+
+* Try it on your browser!

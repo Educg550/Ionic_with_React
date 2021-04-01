@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
     "@capacitor/core": "2.4.7",
     "@ionic/react": "^5.5.0",
     "@ionic/react-router": "^5.5.0",
@@ -15,6 +16,8 @@
     "@types/react-dom": "^16.9.10",
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
+    "apollo-boost": "^0.4.9",
+    "graphql": "^15.5.0",
     "ionicons": "^5.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -40,7 +43,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "eslintConfig": {
     "extends": [
@@ -62,6 +66,10 @@
   },
   "devDependencies": {
     "@capacitor/cli": "2.4.7",
+    "@graphql-codegen/cli": "1.21.3",
+    "@graphql-codegen/typescript": "1.21.1",
+    "@graphql-codegen/typescript-operations": "1.17.15",
+    "@graphql-codegen/typescript-react-apollo": "2.2.3",
     "@ionic/lab": "3.2.10"
   },
   "description": "An Ionic project"
