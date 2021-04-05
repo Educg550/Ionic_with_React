@@ -1,4 +1,4 @@
-import ApolloClient from 'apollo-boost'
+import ApolloClient from '@apollo/client'
 import { LAUNCHES_PAST_QUERY } from './graphql/launches'
 
 const uri = process.env.REACT_APP_API_URL
